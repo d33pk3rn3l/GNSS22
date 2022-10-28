@@ -1,6 +1,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: echo 'init script' # runs during prebuild
+  - init: |
+          echo 'init script' # runs during prebuild
           pip install git+https://github.com/GNSSpy-Project/gnsspy
           pip install pyunpack
           pip install georinex
