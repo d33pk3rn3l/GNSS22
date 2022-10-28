@@ -1,0 +1,7 @@
+Da es Probleme mit georinex gab, hier eine mögliche Alternative dazu:
+
+https://github.com/GNSSpy-Project/gnsspy
+hier kann der Befehl zum Lesen des Rinex-Files so verwendet werden:
+
+import gnsspy as gp
+station = gp.read_obsFile("ONSA0320.11O")
